@@ -11,16 +11,16 @@ Before running the tests, ensure that you have the following dependencies instal
 - Cypress Cucumber Preprocessor: Install with `npm install @badeball/cypress-cucumber-preprocessor`
 - Browserify: Install with `npm install @badeball/cypress-cucumber-preprocessor/browserify`
 
-## Running the Tests
-
-To execute the tests with the Cypress Test Runner, run the following command:
-
-```bash
-npx cypress open
-
-echo 
+## Running the Tests Headless mode
 
 To execute the tests in headless mode (without the Cypress UI), use the following command:
 
 ```bash
 npx cypress run
+```
+
+To execute the tests with the Cypress Test Runner, run the following command:
+
+```bash
+npx cypress open
+```
